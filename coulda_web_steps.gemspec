@@ -38,7 +38,7 @@ Gem::Specification.new do |s|
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<json>, ["~> 1.4.6"])
-      s.add_runtime_dependency(%q<coulda>, ["> 0.6.0"])
+      s.add_runtime_dependency(%q<coulda>, ["~> 0.6.0"])
       s.add_runtime_dependency(%q<capybara>, ["~> 1.0.0"])
       s.add_runtime_dependency(%q<factory_girl>, ["~> 1.3.2"])
       s.add_development_dependency(%q<shoulda>, [">= 0"])
