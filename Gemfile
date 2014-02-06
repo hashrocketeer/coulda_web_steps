@@ -2,7 +2,7 @@ source "http://rubygems.org"
 
 gem "json"
 gem "coulda", "~> 0.6.0"
-gem "capybara", "~> 1.0.0"
+gem "capybara"
 gem "factory_girl"
 
 group :development do
